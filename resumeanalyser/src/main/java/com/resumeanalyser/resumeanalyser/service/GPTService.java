@@ -45,6 +45,8 @@ public class GPTService {
     - improvementAreas: Specific areas that need improvement
     - jobMatchScore: Score out of 100 for job match (if job description provided) or give "no job description provided"
     - recommendations: Specific recommendations for improvement
+    - JobMatchScore upgrade: Specific match in the resume and not match.
+    - ATS Success Rate Tip: Give a percentage how much it can pass the ATS Test (like 70% etc).
     """;
 
     String prompt = promptInstructions + "\n\nResume:\n" + resumeText;
