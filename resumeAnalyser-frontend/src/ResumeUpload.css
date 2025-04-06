@@ -1,0 +1,74 @@
+.upload-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  background-color: #2a2a2a; /* Dark background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  color: #fff; /* White text for contrast */
+  font-family: Arial, sans-serif;
+}
+
+.upload-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-input {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.upload-button {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.loading-text {
+  margin-top: 1rem;
+  color: #ccc;
+}
+
+.error-text {
+  margin-top: 1rem;
+  color: #ff4e4e;
+  font-weight: bold;
+}
+
+.feedback-container {
+  margin-top: 2rem;
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.feedback-container h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.feedback-pre {
+  background: #1e1e1e;
+  color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  white-space: pre-wrap; /* Helps display JSON or text nicely */
+  line-height: 1.4;
+}
